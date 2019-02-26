@@ -213,6 +213,7 @@ img{
         background-color: black;
         /* float:left; */
         position:static;
+        top:10px;
     }
     
     .timeline-holder{
