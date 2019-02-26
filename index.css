@@ -191,14 +191,14 @@ html, body { margin: 0; padding: 0; }
     }
 
     .personal-info-holder{
-        width:500px;
+        width:100vw;
         /* height:100%; */
         background-color: black;
-        float:left;
+        /* float:left; */
     }
     
     .timeline-holder{
-        width:500px;
+        width:100vw;
         height:100%;
         background-color: red;
     }
