@@ -11,10 +11,14 @@ img{
 }
 
 .placeholder{
-  width:100px;
+  /* width:100px;
   height:100px;
-  background-color:red;
-  position:fixed;
+  background-color:red; */
+}
+
+.placeholder img{
+  height: 180px;
+  width: 180px;
 }
 
 .flex-container{
@@ -28,6 +32,14 @@ img{
     height:100vh;
     background-color: black;
     /* float:left; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    color:white;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
 }
 
 .timeline-holder{
@@ -200,6 +212,7 @@ img{
         /* height:100%; */
         background-color: black;
         /* float:left; */
+        position:static;
     }
     
     .timeline-holder{
