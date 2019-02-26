@@ -218,6 +218,7 @@ img{
         /* float:left; */
         position:static;
         top:10px;
+        height:auto;
     }
     
     .timeline-holder{
