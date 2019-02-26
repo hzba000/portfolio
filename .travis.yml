@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: Ebnij80Grlmnc647EVGIj9BN9D+DulWSPqWqaBmp9DSFWxSdpsWBziFIeUVfi9nouIMg75CCDsSAD7JmoTvETHD8AspMpBoJ96BhbrDSRI/QejFbCP85la3drzAarW3vpBEASWZmh36zLphxi/ii0CgnyjOEtvKrdixEosJMIbz4M+SvYmwTN/1A3b1WL6v+Udbs46bDd9rCffKa0pjbnvW11yIJv+ZpNDrVsAvgWytU9ZGUB3ih7I6EB5Tz9CiLjG8Mc4v40UUT6z5UkFtTcZiXG3B0q4H/Y3/cqvUs3nLiuAqr637JWcQaROGbZ9lbUVHXN+wZbnMF9BAVgkEHdR7HlgU0/x0WIJ+Noz2hGxxGRNht6PhiqbNpA6YYleRMKQvjrzHHwl7s6rURPVC1c4W3PYvKWGgn20TVVtZ36Q1rGrrJD3aaWnGK2+AZHLWae0qPlnOO4ynX9pOrjGpIyOaJUa/7ooMZ1GOPIxgtnOLmL/it+ZUw9gYkaSEy6uHRXU4/oKTqXkDzVQXPFk8aEhzulN64XO7kunF7sfcuBhXBTx5398RfG5UBaSVRKh/wE3sHtNM0UarQs2yfzoX1z3xBdRBs2mBQU9GfSl1cRgNOpbCB3cJXONoJkRnuKnMPG20sZafTBUs5yOzW+A+4INuO0hWaJHAS6s90cXYFS/c=
+  app: shrouded-bastion-24738
+  on:
+    repo: hzba000/portfolio
