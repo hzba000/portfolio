@@ -1,7 +1,3 @@
-*{
-  box-sizing:border-box;
-}
-
 html, body { margin: 0; padding: 0; } 
 
 .project-title{
@@ -31,7 +27,7 @@ html, body { margin: 0; padding: 0; }
 
 .timeline-holder{
     width:100vw;
-    height:100%;
+    /* height:100%; */
     background-color: red;
 }
 
