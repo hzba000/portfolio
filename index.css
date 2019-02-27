@@ -1,5 +1,10 @@
 html, body { margin: 0; padding: 0; } 
 
+.work-icon:hover{
+  border: 5px red solid;
+  cursor: pointer;
+}
+
 .technology-used{
   display:flex;
   flex-direction: row;
