@@ -4,7 +4,7 @@ html, body { margin: 0; padding: 0; }
   display:flex;
   flex-direction: row;
   flex-wrap:wrap;
-  justify-content:center;
+  justify-content:space-evenly;
 }
 
 .app-description{
@@ -13,6 +13,8 @@ html, body { margin: 0; padding: 0; }
 
 .technology-used section{
   text-align:center;
+  display:flex;
+  flex-direction:row;
 }
 
 .technology-used section ul{
@@ -251,7 +253,13 @@ img{
       display:flex;
       flex-direction: column;
       flex-wrap:wrap;
-      justify-content:center;
+      justify-content:space-evenly;
+    }
+
+    .technology-used section{
+      text-align:center;
+      display:flex;
+      flex-direction:row;
     }
     
     /* .project-holder{
@@ -263,7 +271,7 @@ img{
 
 }
 
-@media only screen and (max-width:800px){
+/* @media only screen and (max-width:700px){
 
 .timeline{
     right: auto;
@@ -274,23 +282,31 @@ img{
   display:flex;
   flex-direction: column;
   flex-wrap:wrap;
-  justify-content:center;
+  justify-content:space-evenly;
 }
 
-}
 
-@media only screen and (min-width:1020px){
 
-.timeline{
-    right: auto;
-    max-width:none;
-}
-/* 
-.technology-used{
-  display:flex;
-  flex-direction: column;
-  flex-wrap:wrap;
-  justify-content:center;
 } */
+
+@media only screen and (max-width:1050px){
+
+.timeline{
+    right: auto;
+    max-width:none;
+}
+
+.technology-used{
+  display:flex;
+  flex-direction: column;
+  flex-wrap:wrap;
+  justify-content:space-evenly;
+}
+
+.technology-used section{
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+}
 
 }
