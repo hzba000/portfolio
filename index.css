@@ -1,4 +1,8 @@
-html, body { margin: 0; padding: 0; } 
+html, body { margin: 0; padding: 0; }
+
+a:hover{
+  color: orange;
+}
 
 .repo-holder, .website-holder{
   display:flex;
@@ -18,9 +22,14 @@ html, body { margin: 0; padding: 0; }
   left: 10px;
 }
 
+.work-icon{
+  border: 5px black solid;
+  border-radius:25px;
+}
+
 .work-icon:hover{
   border: 5px red solid;
-  border-color:red;
+  border-color:orange;
   cursor: pointer;
 }
 
@@ -46,9 +55,14 @@ html, body { margin: 0; padding: 0; }
 }
 
 
-img{
+.content img{
   border: 5px black solid;
   border-radius:25px;
+}
+
+.content img:hover{
+  border: 5px orange solid;
+  /* opacity: 1.25; */
 }
 
 .project-title{
