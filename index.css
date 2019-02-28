@@ -2,6 +2,7 @@ html, body { margin: 0; padding: 0; }
 
 .work-icon:hover{
   border: 5px red solid;
+  border-color:red;
   cursor: pointer;
 }
 
@@ -311,7 +312,11 @@ img{
 .technology-used section{
   text-align:center;
   display:flex;
-  flex-direction:column;
+  flex-direction:row;
+}
+
+.technology-used section h3{
+  width:50px;
 }
 
 }
