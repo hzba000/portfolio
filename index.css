@@ -1,5 +1,13 @@
 html, body { margin: 0; padding: 0; }
 
+.about-holder{
+  border:5px white solid;
+  background-color:brown;
+  border-radius:25px;
+  padding:5px;
+  margin:10px;
+}
+
 a:hover{
   color: orange;
 }
@@ -92,13 +100,18 @@ a:hover{
     top: 10px;
 }
 
+.profile-image{
+  border: 5px white solid;
+  border-radius: 25px;
+}
+
 .personal-info-holder p{
   max-width:300px;
 }
 
 .timeline-holder{
     width:100vw;
-    background-color: red;
+    background-color: brown;
 }
 
 /* timeline */
@@ -237,12 +250,19 @@ a:hover{
     }
   }
 
+  @media only screen and (max-width:325px){
+
+
+  }
+
+
+
 @media only screen and (max-width:599px){
 
   .placeholder{
     width:100px;
     height:100px;
-    background-color:red;
+    background-color:brown;
     position:static;
   }
 
@@ -262,7 +282,7 @@ a:hover{
     .timeline-holder{
         width:100vw;
         height:100%;
-        background-color: red;
+        background-color: brown;
     }
 
     .technology-used{
