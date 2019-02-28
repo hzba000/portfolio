@@ -98,6 +98,7 @@ a:hover{
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 10px;
+    border-bottom: white solid;
 }
 
 .profile-image{
