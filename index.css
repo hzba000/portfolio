@@ -1,5 +1,23 @@
 html, body { margin: 0; padding: 0; } 
 
+.repo-holder, .website-holder{
+  display:flex;
+}
+
+.repo-holder h3, .website-holder h3{
+  width:50px;
+}
+
+.image-for-text-overlay{
+  position:relative;
+}
+
+.text-overlay{
+  position:absolute;
+  top: 10px;
+  left: 10px;
+}
+
 .work-icon:hover{
   border: 5px red solid;
   border-color:red;
