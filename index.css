@@ -36,8 +36,8 @@ a:hover{
 }
 
 .work-icon:hover{
-  border: 5px red solid;
-  border-color:orange;
+  border: 5px orange solid;
+  background-color:orange;
   cursor: pointer;
 }
 
