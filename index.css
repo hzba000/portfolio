@@ -251,7 +251,9 @@ a:hover{
   }
 
   @media only screen and (max-width:325px){
-
+    .technology-used h3{
+      width: 45px;
+    }
 
   }
 
@@ -320,6 +322,6 @@ a:hover{
     }
 
     .technology-used section h3{
-      width:50px;
+      width:45px;
     }
 }
