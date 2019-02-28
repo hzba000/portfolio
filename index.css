@@ -62,18 +62,11 @@ a:hover{
 
 .content img:hover{
   border: 5px orange solid;
-  /* opacity: 1.25; */
 }
 
 .project-title{
   text-align:center;
   color: white;
-}
-
-.placeholder{
-  /* width:100px;
-  height:100px;
-  background-color:red; */
 }
 
 .placeholder img{
@@ -84,17 +77,14 @@ a:hover{
 .flex-container{
     display:flex;
     flex-direction: row;
-    /* margin:10px; */
 }
 
 .personal-info-holder{
     width:500px;
     height:100vh;
     background-color: black;
-    /* float:left; */
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
     color:white;
     position: -webkit-sticky; /* Safari */
@@ -108,15 +98,8 @@ a:hover{
 
 .timeline-holder{
     width:100vw;
-    /* height:100%; */
     background-color: red;
 }
-
-/* .project-holder{
-    width:500px;
-    height:100vh;
-    background-color: yellow;
-} */
 
 /* timeline */
 * {
@@ -134,7 +117,6 @@ a:hover{
     position: relative;
     max-width: 1200px;
     margin: 0 auto;
-    /* overflow:scroll; */
   }
   
   /* The actual timeline (the vertical ruler) */
@@ -145,7 +127,6 @@ a:hover{
     background-color: white;
     top: 0;
     bottom: 0;
-    /* left: 50%; */
     margin-left: -3px;
   }
   
@@ -178,7 +159,6 @@ a:hover{
   
   /* Place the container to the right */
   .right {
-    /* left: 50%; */
     width:100%;
   }
   
@@ -273,9 +253,7 @@ a:hover{
 
     .personal-info-holder{
         width:100vw;
-        /* height:100%; */
         background-color: black;
-        /* float:left; */
         position:static;
         top:10px;
         height:auto;
@@ -299,56 +277,29 @@ a:hover{
       display:flex;
       flex-direction:row;
     }
-    
-    /* .project-holder{
-        width:500px;
-        height:100vh;
-        background-color: yellow;
-    }
-     */
-
 }
-
-/* @media only screen and (max-width:700px){
-
-.timeline{
-    right: auto;
-    max-width:none;
-}
-
-.technology-used{
-  display:flex;
-  flex-direction: column;
-  flex-wrap:wrap;
-  justify-content:space-evenly;
-}
-
-
-
-} */
 
 @media only screen and (max-width:1050px){
 
-.timeline{
-    right: auto;
-    max-width:none;
-}
+    .timeline{
+        right: auto;
+        max-width:none;
+    }
 
-.technology-used{
-  display:flex;
-  flex-direction: column;
-  flex-wrap:wrap;
-  justify-content:space-evenly;
-}
+    .technology-used{
+      display:flex;
+      flex-direction: column;
+      flex-wrap:wrap;
+      justify-content:space-evenly;
+    }
 
-.technology-used section{
-  text-align:center;
-  display:flex;
-  flex-direction:row;
-}
+    .technology-used section{
+      text-align:center;
+      display:flex;
+      flex-direction:row;
+    }
 
-.technology-used section h3{
-  width:50px;
-}
-
+    .technology-used section h3{
+      width:50px;
+    }
 }
