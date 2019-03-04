@@ -8,4 +8,4 @@ I love technology that does more with less and admire people that find elegant s
 Come visit me <a href="www.hozefa.io"> here </a> and check out some of my projects!
 </p>
 
-<a href="http://www.hozefa.io"><img src="./images/portfolio_screenshot.jpg" /></a>
+<a href="http://www.hozefa.io" target="_blank"><img src="./images/portfolio_screenshot.jpg" /></a>
