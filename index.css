@@ -1,5 +1,9 @@
 html, body { margin: 0; padding: 0; }
 
+h2, h3{
+  color:brown;
+}
+
 .about-holder{
   border:5px white solid;
   background-color:brown;
