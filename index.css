@@ -305,7 +305,7 @@ a:hover{
       }
   }
 
-  @media only screen and (max-width:1050px){
+  @media only screen and (max-width:1230px){
 
       .timeline{
           right: auto;
@@ -329,3 +329,28 @@ a:hover{
         width:45px;
       }
   }
+
+  @media only screen and (min-width:1575px){
+
+    .timeline{
+        right: auto;
+        max-width:none;
+    }
+
+    .technology-used{
+      display:flex;
+      /* flex-direction: column; */
+      flex-wrap:wrap;
+      justify-content:space-evenly;
+    }
+
+    .technology-used section{
+      text-align:center;
+      display:flex;
+      flex-direction:row;
+    }
+
+    .technology-used section h3{
+      width:45px;
+    }
+}
